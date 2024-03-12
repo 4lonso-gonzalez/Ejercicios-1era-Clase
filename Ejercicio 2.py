@@ -33,7 +33,7 @@ while condicional == 0:
         print("Por el concepto de pie el comprador debe pagar: ",pie,"CLP")
         print("Cada mensualidad a pagar por 10 años saldrian cada una a: ",mensual,"CLP")
         condicional = 1
-else:
-    print("El ingreso del comprador no es valido para la empresa")
-    ingreso = int(input("Ingrese el ingreso del comprador: "))
+    else:
+        print("El ingreso del comprador no es valido para la empresa")
+        ingreso = int(input("Ingrese el ingreso del comprador: "))
 """
