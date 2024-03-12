@@ -22,17 +22,17 @@ else:
 condicional = 0
 while condicional == 0:
     if ingreso >= 80000:
-    pie = (casa * 0.15)
-    mensual = (casa - pie)/120
-    print("Por el concepto de pie el comprador debe pagar: ",pie,"CLP")
-    print("Cada mensualidad a pagar por 10 años saldrian cada una a: ",mensual,"CLP")
-    condicional = 1
-elif ingreso < 80000:
-    pie = (casa * 0.30)
-    mensual = (casa - pie)/84
-    print("Por el concepto de pie el comprador debe pagar: ",pie,"CLP")
-    print("Cada mensualidad a pagar por 10 años saldrian cada una a: ",mensual,"CLP")
-    condicional = 1
+        pie = (casa * 0.15)
+        mensual = (casa - pie)/120
+        print("Por el concepto de pie el comprador debe pagar: ",pie,"CLP")
+        print("Cada mensualidad a pagar por 10 años saldrian cada una a: ",mensual,"CLP")
+        condicional = 1
+    elif ingreso < 80000:
+        pie = (casa * 0.30)
+        mensual = (casa - pie)/84
+        print("Por el concepto de pie el comprador debe pagar: ",pie,"CLP")
+        print("Cada mensualidad a pagar por 10 años saldrian cada una a: ",mensual,"CLP")
+        condicional = 1
 else:
     print("El ingreso del comprador no es valido para la empresa")
     ingreso = int(input("Ingrese el ingreso del comprador: "))
